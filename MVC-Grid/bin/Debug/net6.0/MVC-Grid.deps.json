@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MVC-Grid/1.0.0": {
+        "dependencies": {
+          "NonFactors.Grid.Mvc6": "7.2.1"
+        },
+        "runtime": {
+          "MVC-Grid.dll": {}
+        }
+      },
+      "NonFactors.Grid.Core.Mvc6/7.2.1": {
+        "runtime": {
+          "lib/net6.0/Mvc.Grid.Core.dll": {
+            "assemblyVersion": "7.2.1.0",
+            "fileVersion": "7.2.1.0"
+          }
+        }
+      },
+      "NonFactors.Grid.Mvc6/7.2.1": {
+        "dependencies": {
+          "NonFactors.Grid.Core.Mvc6": "7.2.1"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MVC-Grid/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NonFactors.Grid.Core.Mvc6/7.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RiUowrHoEYE+cHTeA5ABQ6BYCJpGJ9HWejShnD846N2jdXJkScp3wZy29aAM8+EADO9nn929An8lJegpjOIg6A==",
+      "path": "nonfactors.grid.core.mvc6/7.2.1",
+      "hashPath": "nonfactors.grid.core.mvc6.7.2.1.nupkg.sha512"
+    },
+    "NonFactors.Grid.Mvc6/7.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-veIWp7efQHcgFLzFSVkJGuTC1sGzuuabOGA5+r28x9ug7xQZHxdN6+opuVJHW76whThc7Wffl5I5sN8NYZ/zIQ==",
+      "path": "nonfactors.grid.mvc6/7.2.1",
+      "hashPath": "nonfactors.grid.mvc6.7.2.1.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+﻿@model List<Employee>
+@{
+    ViewBag.Title = "Employee Details FIX Size";
+}
+
+<h2>Employee Details</h2>
+
+<head>
+    <link href="~/css/mvc-grid/mvc-grid.css" rel="stylesheet" />
+    
+    <style>
+        /* Apply to thead and tbody th/td for better targeting */
+        .mvc-grid thead th.employee-name-column,
+        .mvc-grid tbody td.employee-name-column {
+            width: 250px !important;
+        }
+
+        .mvc-grid tbody td.nocolumn {
+        width: 20px !important;
+}
+
+        .mvc-grid thead th.gender-column,
+        .mvc-grid tbody td.gender-column {
+            width: 30px;
+            resize: horizontal;
+            overflow: hidden;
+        }
+
+        .mvc-grid thead th.address-column,
+        .mvc-grid tbody td.address-column {
+            width: 150px !important;
+        }
+
+        /* Make the columns resizable */
+        th.resizable, td.resizable {
+            resize: horizontal;      
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Button links to different actions -->
+    <a href="@Url.Action("Index", "Search")" class="btn btn-primary">Index</a>
+    <a href="@Url.Action("IndexFirst", "Search")" class="btn btn-primary">Index First</a>
+    <a href="@Url.Action("IndexResize", "Search")" class="btn btn-primary">Index Resize</a>
+
+    @(Html
+        .Grid(Model)
+        .Build(columns =>
+        {
+            columns.Add(model => Html.CheckBox("Check_" + model.ID)).Titled(Html.CheckBox("CheckAll")).Css("nocolumn");
+            columns.Add().RenderedAs((model, row) => row + 1).Titled("#").Css("nocolumn text-center");
+
+            columns.Add(model => model.Name).Titled("Employee Name").Css("resizable");
+            columns.Add(model => model.Gender).Titled("Gender").Css("gender-column");
+            columns.Add(model => model.Address).Titled("Address").Css("address-column");
+            columns.Add(model => model.Department).Titled("Department").Css("resizable");
+            columns.Add(model => model.Salary).Titled("Salary ").Css("gender-column");
+        })
+        .Using(GridFilterMode.Row)
+        .Empty("No data found")        
+        .Pageable(pager =>
+        {
+            pager.PageSizes = new Dictionary<Int32, String> { { 0, "All" }, { 2, "2" }, { 4, "4" } };
+            pager.ShowPageSizes = true;
+            pager.PagesToDisplay = 3;
+            pager.CurrentPage = 1;
+            pager.RowsPerPage = 2;
+        })
+        .Css("resizable")
+        @* .Sortable() *@
+        )
+
+    <script src="~/js/mvc-grid/mvc-grid.js"></script>
+    <script>
+        document.querySelectorAll(".mvc-grid").forEach(element => new MvcGrid(element));
+
+        document.getElementById("CheckAll").addEventListener("change", function () {
+            document.querySelectorAll("[id^='Check_'").forEach(checkbox => checkbox.checked = this.checked);
+        });
+    </script>
+</body>

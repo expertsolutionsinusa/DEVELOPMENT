@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DEVRx\\temp\\MVC-Grid\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55F59B37-E340-4058-96E8-C5B527D64807}|MVC-Grid\\MVC-Grid.csproj|c:\\devrx\\temp\\mvc-grid\\mvc-grid\\views\\search\\index-fixsize.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55F59B37-E340-4058-96E8-C5B527D64807}|MVC-Grid\\MVC-Grid.csproj|solutionrelative:mvc-grid\\views\\search\\index-fixsize.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F59B37-E340-4058-96E8-C5B527D64807}|MVC-Grid\\MVC-Grid.csproj|c:\\devrx\\temp\\mvc-grid\\mvc-grid\\views\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55F59B37-E340-4058-96E8-C5B527D64807}|MVC-Grid\\MVC-Grid.csproj|solutionrelative:mvc-grid\\views\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F59B37-E340-4058-96E8-C5B527D64807}|MVC-Grid\\MVC-Grid.csproj|c:\\devrx\\temp\\mvc-grid\\mvc-grid\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55F59B37-E340-4058-96E8-C5B527D64807}|MVC-Grid\\MVC-Grid.csproj|solutionrelative:mvc-grid\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F59B37-E340-4058-96E8-C5B527D64807}|MVC-Grid\\MVC-Grid.csproj|c:\\devrx\\temp\\mvc-grid\\mvc-grid\\views\\search\\index-resize.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55F59B37-E340-4058-96E8-C5B527D64807}|MVC-Grid\\MVC-Grid.csproj|solutionrelative:mvc-grid\\views\\search\\index-resize.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F59B37-E340-4058-96E8-C5B527D64807}|MVC-Grid\\MVC-Grid.csproj|c:\\devrx\\temp\\mvc-grid\\mvc-grid\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F59B37-E340-4058-96E8-C5B527D64807}|MVC-Grid\\MVC-Grid.csproj|solutionrelative:mvc-grid\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F59B37-E340-4058-96E8-C5B527D64807}|MVC-Grid\\MVC-Grid.csproj|c:\\devrx\\temp\\mvc-grid\\mvc-grid\\views\\search\\index-first.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55F59B37-E340-4058-96E8-C5B527D64807}|MVC-Grid\\MVC-Grid.csproj|solutionrelative:mvc-grid\\views\\search\\index-first.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F59B37-E340-4058-96E8-C5B527D64807}|MVC-Grid\\MVC-Grid.csproj|c:\\devrx\\temp\\mvc-grid\\mvc-grid\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F59B37-E340-4058-96E8-C5B527D64807}|MVC-Grid\\MVC-Grid.csproj|solutionrelative:mvc-grid\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F59B37-E340-4058-96E8-C5B527D64807}|MVC-Grid\\MVC-Grid.csproj|c:\\devrx\\temp\\mvc-grid\\mvc-grid\\extentions\\gridextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F59B37-E340-4058-96E8-C5B527D64807}|MVC-Grid\\MVC-Grid.csproj|solutionrelative:mvc-grid\\extentions\\gridextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F59B37-E340-4058-96E8-C5B527D64807}|MVC-Grid\\MVC-Grid.csproj|c:\\devrx\\temp\\mvc-grid\\mvc-grid\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55F59B37-E340-4058-96E8-C5B527D64807}|MVC-Grid\\MVC-Grid.csproj|solutionrelative:mvc-grid\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 277,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\DEVRx\\temp\\MVC-Grid\\MVC-Grid\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVC-Grid\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\DEVRx\\temp\\MVC-Grid\\MVC-Grid\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVC-Grid\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T16:16:12.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index-FixSize.cshtml",
+              "DocumentMoniker": "C:\\DEVRx\\temp\\MVC-Grid\\MVC-Grid\\Views\\Search\\Index-FixSize.cshtml",
+              "RelativeDocumentMoniker": "MVC-Grid\\Views\\Search\\Index-FixSize.cshtml",
+              "ToolTip": "C:\\DEVRx\\temp\\MVC-Grid\\MVC-Grid\\Views\\Search\\Index-FixSize.cshtml",
+              "RelativeToolTip": "MVC-Grid\\Views\\Search\\Index-FixSize.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T15:51:31.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index-First.cshtml",
+              "DocumentMoniker": "C:\\DEVRx\\temp\\MVC-Grid\\MVC-Grid\\Views\\Search\\Index-First.cshtml",
+              "RelativeDocumentMoniker": "MVC-Grid\\Views\\Search\\Index-First.cshtml",
+              "ToolTip": "C:\\DEVRx\\temp\\MVC-Grid\\MVC-Grid\\Views\\Search\\Index-First.cshtml",
+              "RelativeToolTip": "MVC-Grid\\Views\\Search\\Index-First.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T15:49:30.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\DEVRx\\temp\\MVC-Grid\\MVC-Grid\\Views\\Search\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC-Grid\\Views\\Search\\Index.cshtml",
+              "ToolTip": "C:\\DEVRx\\temp\\MVC-Grid\\MVC-Grid\\Views\\Search\\Index.cshtml",
+              "RelativeToolTip": "MVC-Grid\\Views\\Search\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T15:42:54.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SearchController.cs",
+              "DocumentMoniker": "C:\\DEVRx\\temp\\MVC-Grid\\MVC-Grid\\Controllers\\SearchController.cs",
+              "RelativeDocumentMoniker": "MVC-Grid\\Controllers\\SearchController.cs",
+              "ToolTip": "C:\\DEVRx\\temp\\MVC-Grid\\MVC-Grid\\Controllers\\SearchController.cs",
+              "RelativeToolTip": "MVC-Grid\\Controllers\\SearchController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T15:28:40.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index-Resize.cshtml",
+              "DocumentMoniker": "C:\\DEVRx\\temp\\MVC-Grid\\MVC-Grid\\Views\\Search\\Index-Resize.cshtml",
+              "RelativeDocumentMoniker": "MVC-Grid\\Views\\Search\\Index-Resize.cshtml",
+              "ToolTip": "C:\\DEVRx\\temp\\MVC-Grid\\MVC-Grid\\Views\\Search\\Index-Resize.cshtml",
+              "RelativeToolTip": "MVC-Grid\\Views\\Search\\Index-Resize.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T15:49:28.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\DEVRx\\temp\\MVC-Grid\\MVC-Grid\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "MVC-Grid\\Models\\Employee.cs",
+              "ToolTip": "C:\\DEVRx\\temp\\MVC-Grid\\MVC-Grid\\Models\\Employee.cs",
+              "RelativeToolTip": "MVC-Grid\\Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T15:28:02.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GridExtensions.cs",
+              "DocumentMoniker": "C:\\DEVRx\\temp\\MVC-Grid\\MVC-Grid\\Extentions\\GridExtensions.cs",
+              "RelativeDocumentMoniker": "MVC-Grid\\Extentions\\GridExtensions.cs",
+              "ToolTip": "C:\\DEVRx\\temp\\MVC-Grid\\MVC-Grid\\Extentions\\GridExtensions.cs",
+              "RelativeToolTip": "MVC-Grid\\Extentions\\GridExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T15:37:35.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\DEVRx\\temp\\MVC-Grid\\MVC-Grid\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "MVC-Grid\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\DEVRx\\temp\\MVC-Grid\\MVC-Grid\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "MVC-Grid\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T15:24:36.202Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

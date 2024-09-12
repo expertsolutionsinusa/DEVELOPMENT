@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/MVC-Grid/FileContentIndex/0ccbafcd-5f1e-420f-9f40-79052fd0f487.vsidx
+/.vs/MVC-Grid/FileContentIndex/3b398d65-e5e4-4d7a-885c-c5363bd5eccf.vsidx
+/MVC-Grid/obj/Debug/net6.0/MVC-Grid.AssemblyInfo.cs
+/MVC-Grid/obj/Debug/net6.0/MVC-Grid.AssemblyInfoInputs.cache

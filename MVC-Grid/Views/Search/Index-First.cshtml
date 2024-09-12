@@ -1,0 +1,57 @@
+﻿@model List<Employee>
+
+<html>
+<head>
+    <link href="~/css/mvc-grid/mvc-grid.css" rel="stylesheet">
+</head>
+<body>
+
+      <!-- Button link to Index -->
+    <a href="@Url.Action("Index", "Search")" class="btn btn-primary">Index</a>
+  
+    <!-- Button link to IndexFixSize -->
+    <a href="@Url.Action("IndexFixSize", "Search")" class="btn btn-primary">Index Fix Size</a>
+
+    <!-- Button link to IndexResize -->
+    <a href="@Url.Action("IndexResize", "Search")" class="btn btn-primary">Index Resize</a>
+
+
+    @(Html
+        .Grid(Model)
+        .Build(columns =>
+        {
+            columns.Add(model => Html.CheckBox("Check_" + model.ID)).Titled(Html.CheckBox("CheckAll"));
+            columns.Add().RenderedAs((model, row) => row + 1).Titled("#").Css("text-center");
+
+            columns.Add(model => model.Name).Titled("Employee Name");
+            columns.Add(model => model.Gender).Titled("Gender");
+            columns.Add(model => model.Address).Titled("Address");
+            columns.Add(model => model.Department).Titled("Department");
+            columns.Add(model => model.Salary).Titled("Salary ");
+        })
+        .Using(GridFilterMode.Row)
+        .Empty("No data found")
+        .Filterable()
+        .Pageable(pager =>
+        {
+            pager.PageSizes = new Dictionary<Int32, String> { { 0, "All" }, { 2, "2" }, { 4, "4" } };
+            pager.ShowPageSizes = true;
+            pager.PagesToDisplay = 3;
+            pager.CurrentPage = 1;
+            pager.RowsPerPage = 2;
+        })
+        .Sortable()
+
+        )
+
+    <script src="~/js/mvc-grid/mvc-grid.js"></script>
+
+    <script>
+        document.querySelectorAll(".mvc-grid").forEach(element => new MvcGrid(element));
+
+        document.getElementById("CheckAll").addEventListener("change", function () {
+            document.querySelectorAll("[id^='Check_'").forEach(checkbox => checkbox.checked = this.checked);
+        });
+    </script>
+</body>
+</html>

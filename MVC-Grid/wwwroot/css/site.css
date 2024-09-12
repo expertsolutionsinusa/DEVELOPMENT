@@ -1,0 +1,44 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+
+/* Resizable column styling for mvc-grid */
+
+table.mvc-grid th {
+    position: relative;
+    padding-right: 10px;
+}
+
+    table.mvc-grid th .resizer {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 5px;
+        height: 100%;
+        cursor: col-resize;
+        z-index: 100;
+    }
+
+/* Prevent text overflow */
+table.mvc-grid td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

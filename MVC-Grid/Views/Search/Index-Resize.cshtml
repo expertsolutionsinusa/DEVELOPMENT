@@ -1,0 +1,135 @@
+﻿@model List<Employee>
+@{
+    ViewBag.Title = "Employee Details Resize";
+}
+
+<h2>Employee Details</h2>
+<html>
+<head>
+    <link href="~/css/mvc-grid/mvc-grid.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        /* Basic table structure */
+        table.mvc-grid {
+            table-layout: fixed;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        /* Resizable column styling */
+        th {
+            position: relative;
+            padding-right: 10px;
+        }
+
+            th .resizer {
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 5px;
+                height: 100%;
+                cursor: col-resize;
+                z-index: 100;
+            }
+
+        td, th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* Prevent text overflow */
+        td {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Button link to Index -->
+    <a href="@Url.Action("Index", "Search")" class="btn btn-primary">Index</a>
+
+    <!-- Button link to IndexFirst -->
+    <a href="@Url.Action("IndexFirst", "Search")" class="btn btn-primary">Index First</a>
+
+    <!-- Button link to IndexFixSize -->
+    <a href="@Url.Action("IndexFixSize", "Search")" class="btn btn-primary">Index Fix Size</a>
+
+
+
+
+    @(Html
+        .Grid(Model)
+        .Build(columns =>
+        {
+            columns.Add(model => Html.CheckBox("Check_" + model.ID)).Titled(Html.CheckBox("CheckAll"));
+            columns.Add().RenderedAs((model, row) => row + 1).Titled("#").Css("text-center");
+
+            columns.Add(model => model.Name).Titled("Employee Name");
+            columns.Add(model => model.Gender).Titled("Gender");
+
+            columns.Add(model => model.Address).Titled("Address");
+            columns.Add(model => model.Department).Titled("Department");
+            columns.Add(model => model.Salary).Titled("Salary ");
+        })
+        .Using(GridFilterMode.Row)
+        .Empty("No data found")
+        .Filterable()
+        .Pageable(pager =>
+        {
+            pager.PageSizes = new Dictionary<Int32, String> { { 0, "All" }, { 2, "2" }, { 4, "4" } };
+            pager.ShowPageSizes = true;
+            pager.PagesToDisplay = 3;
+            pager.CurrentPage = 1;
+            pager.RowsPerPage = 2;
+        })
+        .Sortable()
+        )
+
+    <script src="~/js/mvc-grid/mvc-grid.js"></script>
+
+    <script>
+        // Initialize the MVC grid
+        document.querySelectorAll(".mvc-grid").forEach(element => new MvcGrid(element));
+
+        // CheckAll functionality
+        document.getElementById("CheckAll").addEventListener("change", function () {
+            document.querySelectorAll("[id^='Check_'").forEach(checkbox => checkbox.checked = this.checked);
+        });
+
+        // Custom resizable function
+        $(function () {
+            const table = $(".mvc-grid");
+
+            // Append resizer div to each header
+            table.find('th').each(function () {
+                $(this).append('<div class="resizer"></div>');
+            });
+
+            // Handle the resizing
+            let startX, startWidth, index;
+            table.on('mousedown', '.resizer', function (e) {
+                startX = e.pageX;
+                const th = $(this).parent();
+                startWidth = th.width();
+                index = th.index();
+
+                $(document).on('mousemove.resize', function (e) {
+                    const width = startWidth + (e.pageX - startX);
+                    th.css('width', width + 'px');
+                    table.find('td:nth-child(' + (index + 1) + ')').css('width', width + 'px');
+                });
+
+                $(document).on('mouseup', function () {
+                    $(document).off('mousemove.resize');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
